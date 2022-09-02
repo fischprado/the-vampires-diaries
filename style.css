@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Merriweather:wght@300&display=swap');
+body{
+    background-image: url(imagens/elenco3gif.gif);
+    margin: 0;
+    color: white;
+    font-family: 'Merriweather', serif;
+    }
+h1 {
+    color: red;
+    text-shadow: 
+    0 0 100px black,
+    0 0 0px black,
+    0 0 50px black,
+    0 0 100px black,
+    0 0 50px black,
+    0 0 0px black,
+    0 0 0px black,
+    0 0 100px black;
+}
+#tvd3 {
+    color: white;
+    text-shadow: 
+    0 0 100px black,
+    0 0 0px black,
+    0 0 50px black,
+    0 0 100px black,
+    0 0 50px black,
+    0 0 0px black,
+    0 0 0px black,
+    0 0 100px black;
+}
+h2 {
+    color: red;
+    text-shadow: 
+    0 0 100px white,
+    0 0 0px white,
+    0 0 50px white,
+    0 0 100px white,
+    0 0 50px white,
+    0 0 0px white,
+    0 0 0px white,
+    0 0 100px white;
+}
+
+#tvd2 {
+    color: red;
+}
+
+    #links {
+        color: blue;
+}
+#tvd3 {
+    text-shadow: 
+    0 0 100px red,
+    0 0 0px red,
+    0 0 50px red,
+    0 0 100px red,
+    0 0 50px red,
+    0 0 0px red,
+    0 0 100px red;
+
+}
+
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+    nav{
+        background-color: black;
+        padding: 0 20px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu{
+        color: red;
+       ;
+    }
+    
+    .menu2{
+        color: red;
+        border-color: red;
+    }
+    
+    nav, ul{
+        display: flex;
+        flex-direction: row;
+    }
+    li{
+        padding: 0 20px;
+    }
+    h1{
+        margin: 0;
+        padding: 10px;
+    }
+    
+    button {
+        background-color: transparent;
+        border: none;
+        color: red;
+        font-size: 26px;
+        
+    }
+    li:hover, h1: :hover
+    button: :hover 
+    {
+        cursor: pointer;
+        opacity: 0.8;
+        }
+    
+        @media (max-width: 70px) {
+            nav,ul {
+                flex-direction: column;
+                align-items: unset;
+            
+            }
+            ul {
+                text-align: center;
+            }
